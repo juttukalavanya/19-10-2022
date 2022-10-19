@@ -1,0 +1,15 @@
+//program on string length by using gets()
+#include<stdio.h>
+#include<string.h>
+ void main()
+ {
+     char str[30];
+     unsigned int len;
+     printf("enter a string :");
+     gets(str);
+     len=strlen(str);
+     printf("length of '%s' is length :'%d'",str, len);
+ }
+out put:
+enter a string :thunder soft
+length of 'thunder soft' is length :'12'

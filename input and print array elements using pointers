@@ -1,0 +1,17 @@
+//program on input and printf  array elements using pointers
+#include<stdio.h>
+int main()
+{
+    int arr[5]={1,2,3,4,5};
+    int *p=&arr[0];
+    int i;
+    for(i=0;i<5;i++)
+    printf("%d\n",*(p+i));
+}
+output:
+1
+2
+3
+4
+5
+

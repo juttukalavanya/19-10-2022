@@ -1,0 +1,17 @@
+//program on string length strlen
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char str[30];
+    unsigned int len ;
+    printf("enter a string:\n");
+    scanf("%s\n", str);
+    len=strlen(str);
+    printf("length of '%s' is length :'%d\n'",str,len);
+    
+}
+
+
+    
+    

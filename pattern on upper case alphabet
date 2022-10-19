@@ -1,0 +1,24 @@
+//program on pattern by using upper case alphabet
+#include<stdio.h>
+int main()
+{
+    int i,j;
+    char p;
+    char alphabet='A';
+    printf("enter what you want to print uppercase letter in last row\n:");
+    scanf("%c",&p);
+    for(i=1;i<=(p-'A'+1);i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%c",alphabet);
+        }
+        ++alphabet;
+        printf("\n");
+    }
+}
+
+A
+BB
+CCC
+
